@@ -1,0 +1,20 @@
+BAI 1: MOI QUAN HE CHA-CON GIUA CAC TIEN TRINH
+
+1a. Cay parent-child:
+init(1)
+└── WindowServer(86)
+    ├── iTunes(281)
+    ├── Terminal(282)
+    │   └── login(287)
+    │       └── -bash(293)
+    │           ├── firefox-bin(461)
+    │           └── Aquamacs(751)
+    ├── Safari(531)
+    └── Mail(726)
+
+1b. Dung lenh ps tim tien trinh cha:
+    ps -f -p <PID>
+    Nhin vao cot PPID de biet PID cua tien trinh cha
+
+1c. Dung lenh pstree:
+    pstree -p <PID>
